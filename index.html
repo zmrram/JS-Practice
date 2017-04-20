@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>word-guessing-exercise</title>
+  <script>window.words = `
+  abruptly 
+  affix 
+  askew 
+  axiom 
+  azure 
+  bagpipes 
+  bandwagon 
+  banjo 
+  bayou 
+  bikini 
+  blitz 
+  bookworm 
+  boxcar 
+  boxful 
+  buckaroo 
+  buffalo 
+  buffoon 
+  cobweb 
+  croquet 
+  daiquiri 
+  disavow 
+  duplex 
+  dwarves 
+  equip 
+  exodus 
+  fishhook 
+  fixable 
+  foxglove`;
+
+window.words = window.words
+   .replace(/\s+/g, ' ')
+   .trim()
+   .split(' ');
+</script>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="word">
+  <!--
+  <div class="letter">a</div>
+  <div class="letter">t</div>
+  <div class="letter">o</div>
+  <div class="letter">m</div>
+  -->
+</div>
+<div id = 'game-message'>
+  
+</div>
+
+<form id = 'guess-box'>
+  <label>Enter your guess</label>
+  <input type="text" id = 'guess' name="guess">
+  <button id = 'submit'>Submit</button>
+</form>
+
+<table id="scoreboard">
+  <tr>
+    <th>Incorrect Guesses</th>
+    <td id = 'incorrect'>&nbsp;</td>
+  </tr>
+  <tr>
+    <th>Guesses Remaining</th>
+    <td id = 'remain-guess'>&nbsp;</td>
+  </tr>
+</table>
+
+<h1>Word-guessing game</h1>
+
+<p>This exercise creates a game that lets a player guess letters in a word. When the game starts, the <code>div#word</code> should be populated with <code>div.letter</code> tiles, one for each letter in the target word. As a player makes correct guesses, the tiles in the target word should be updated to show the correct guesses. As a player makes incorrect guesses, the scoreboard should be updated to show each incorrect guess; also, the number of guesses remaining should be decremented. After seven incorrect guesses, the player loses. The player wins by guessing all of the letters in the word before running out of guesses.</p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  font-family: Helvetica;
+}
+
+table {
+  border-collapse: collapse
+}
+
+table td, table th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 1em;
+}
+
+form {
+  margin: 1em 0;
+}
+
+.letter {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1em 1.2em;
+  height: 1.2em;
+  width: 1.2em;
+  margin-right: 1px;
+}
