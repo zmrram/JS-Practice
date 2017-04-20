@@ -1,7 +1,7 @@
 
 
 <!--
-Copyright (c) 2017 by Captain Anonymous (http://codepen.io/anon/pen/NjxeZy)
+Copyright (c) 2017 by Tin Huynh (http://codepen.io/zmrram/pen/JNGzLL)
 
 
 Fork of an original work by Rebecca Murphey (http://codepen.io/rmurphey/pen/eJxrXx)
